@@ -74,7 +74,7 @@ App runs at: `http://localhost:3001`
 
 ## Live Demo
 
-- **Frontend:** https://task-frontend-ndgz.vercel.app/login
+- **Frontend:** https://task-frontend-ndgz-a9w18ei6k-mrgroot01s-projects.vercel.app/
 - **Backend:** https://taskpro-backend-96wu.onrender.com
 
 ## Repositories
