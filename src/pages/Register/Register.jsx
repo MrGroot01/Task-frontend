@@ -26,8 +26,8 @@ export default function Register() {
     setLoading(true)
     try {
       await register(form)
-      toast.success('Account created! Welcome to TaskPro 🎉')
-      navigate('/')
+      toast.success('Account created! Please sign in. 🎉')
+      navigate('/login')
     } catch (err) {
       toast.error(getErrorMessage(err))
     } finally {
