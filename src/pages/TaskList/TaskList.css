@@ -1,0 +1,54 @@
+.task-list-page {
+  max-width: 960px;
+  padding: 32px 28px;
+  animation: fadeIn 0.3s ease both;
+}
+
+.task-list-page__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.task-list-page__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #f9fafb;
+  letter-spacing: -0.5px;
+  margin-bottom: 4px;
+}
+
+.task-list-page__count {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+.task-list-page__filters {
+  margin-bottom: 24px;
+}
+
+.task-list-page__loading {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.task-list-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  .task-list-page { padding: 20px 16px; }
+  .task-list-page__title { font-size: 22px; }
+}

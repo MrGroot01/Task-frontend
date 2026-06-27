@@ -1,0 +1,21 @@
+.app-main {
+  padding-top: var(--navbar-height);
+  padding-left: var(--sidebar-width);
+  min-height: 100vh;
+  transition: padding-left var(--transition);
+}
+
+.app-content {
+  padding: 28px 28px 48px;
+  max-width: 1300px;
+  animation: fadeIn 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    padding-left: 0;
+  }
+  .app-content {
+    padding: 20px 16px 40px;
+  }
+}

@@ -1,0 +1,38 @@
+.task-create { max-width: 680px; }
+
+.task-create__header { margin-bottom: 24px; }
+
+.task-create__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+  transition: color var(--transition);
+}
+
+.task-create__back:hover { color: var(--color-primary); }
+.task-create__back svg { width: 15px; height: 15px; }
+
+.task-create__title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 6px;
+}
+
+.task-create__subtitle {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.task-create__card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+}
